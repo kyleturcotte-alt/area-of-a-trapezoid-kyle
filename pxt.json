@@ -1,5 +1,5 @@
 {
-    "name": "Area of a Trapezoid (Kyle)",
+    "name": "Cost of Pizza (Kyle)",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -8,7 +8,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"

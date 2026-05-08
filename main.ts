@@ -1,6 +1,10 @@
-game.splash("Let's calculate the area and perimeter of a rectangle!")
-let length = game.askForNumber("What is the length? (cm)")
-let width = game.askForNumber("What is the width? (cm)")
-let perimeter = 2 * (length + width)
-let area = length * width
-game.splash("The area of the trapezoid is", area)
+game.splash("Let's calculate the cost of a pizza!")
+let Labour_cost = 0.75
+let Rent_cost = 1
+let Pizza_diameter = game.askForNumber("What is the diameter for your pizza? (in)")
+let Materials_cost = 0.5 * Pizza_diameter
+let Subtotal = Labour_cost + (Rent_cost + Materials_cost)
+let HST = 0.13
+let Tax = Subtotal * HST
+let Total = Subtotal + Tax
+game.splash("The cost of your pizza is", Math.round(Total * 100) / 100)
